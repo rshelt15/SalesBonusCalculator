@@ -21,7 +21,6 @@ F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\bin\De
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\bin\Debug\net8.0-windows\SalesBonusCalculatorForm.dll
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\bin\Debug\net8.0-windows\SalesBonusCalculatorForm.pdb
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.MainForm.resources
-F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.SettingsForm.resources
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.csproj.GenerateResource.cache
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.GeneratedMSBuildEditorConfig.editorconfig
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.AssemblyInfoInputs.cache
@@ -33,7 +32,6 @@ F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\De
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.genruntimeconfig.cache
 F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\ref\SalesBonusCalculatorForm.dll
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.MainForm.resources
-E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.SettingsForm.resources
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.csproj.GenerateResource.cache
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.GeneratedMSBuildEditorConfig.editorconfig
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.AssemblyInfoInputs.cache
@@ -52,3 +50,8 @@ E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\De
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.SalespersonManagerForm.resources
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.EditSalespersonForm.resources
 E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.Properties.Resources.resources
+F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.EditSalespersonForm.resources
+F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.Properties.Resources.resources
+F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.SalespersonManagerForm.resources
+F:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.ChangeBonusRateForm.resources
+E:\c.Computer Science 2\SalesBonusCalculatorForm\SalesBonusCalculatorForm\obj\Debug\net8.0-windows\SalesBonusCalculatorForm.ChangeBonusRateForm.resources

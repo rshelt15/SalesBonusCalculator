@@ -12,10 +12,12 @@ namespace SalesBonusCalculatorForm
 {
     public partial class SalespersonManagerForm : Form
     {
+        private bool hasChangesMade = false;
         public SalespersonManagerForm()
         {
             InitializeComponent();
             this.Load += SalespersonManagerForm_Load;
+            this.FormClosing += SalespersonManagerForm_Closing;
         }
         private void SalespersonManagerForm_Load(object sender, EventArgs e)
         {
@@ -42,6 +44,7 @@ namespace SalesBonusCalculatorForm
                     {
                         salespersonListBox.Items.Add(fullName);
                         salespersonListBox.SelectedItem = fullName;
+                        hasChangesMade = true;
                     }
                     else
                     {
@@ -68,6 +71,7 @@ namespace SalesBonusCalculatorForm
                     if (!salespersonListBox.Items.Contains(fullName))
                     {
                         salespersonListBox.Items[salespersonListBox.SelectedIndex] = fullName;
+                        hasChangesMade = true;
                     }
                     else
                     {
@@ -93,6 +97,7 @@ namespace SalesBonusCalculatorForm
             if (result == DialogResult.Yes)
             {
                 salespersonListBox.Items.Remove(salespersonListBox.SelectedItem);
+                hasChangesMade = true;
             }
         }
 
@@ -107,8 +112,8 @@ namespace SalesBonusCalculatorForm
             }
 
             File.WriteAllLines("salespersons.txt", names);
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            MessageBox.Show("Changes saved successfully.");
+            hasChangesMade = false;
         }
 
         /// <summary>
@@ -129,6 +134,24 @@ namespace SalesBonusCalculatorForm
             {
                 editButton.PerformClick();
             }
+        }
+        private void SalespersonManagerForm_Closing(object sender, FormClosingEventArgs e)
+        {
+            if (hasChangesMade == true)
+            {
+                var result = MessageBox.Show("You have unsaved changes that will be lost, are you sure you want to exit?", "Confirm Exit",
+                MessageBoxButtons.YesNo);
+                if (result == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
+            
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
         }
     }
 }
